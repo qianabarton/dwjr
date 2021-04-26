@@ -1,0 +1,180 @@
+/* GENERAL */
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px 0 10px 0;
+    font-size: 2.5rem !important;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:active {
+    color: rgba(0, 0, 0, 1);
+}
+
+.center {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+
+/* HEADER */
+
+.name-divider {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+/* PAGE */
+
+.page {
+    margin: 20px 15% 10px 15%;
+}
+
+
+/* HOME */
+
+.accent {
+    color: #D25200;
+}
+
+.main-image {
+    width: 400px;
+}
+
+.special-desktop {
+    display: block;
+}
+
+.special-mobile {
+    display: none;
+}
+
+.main-image {
+    width: 400px;
+}
+
+.divider {
+    width: 50vw;
+    height: 1px;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.text-block {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+.text-block p {
+    font-weight: 400;
+    margin: 40px 0;
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.text-block h2 {
+    font-weight: 700;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.text-block h3 {
+    font-weight: 800;
+    margin: 40px 0;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.block-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.block-list li {
+    margin: 12px 0;
+}
+
+
+/* ABOUT */
+
+.indent {
+    list-style: none;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-right: 40px;
+}
+
+.articles {
+    margin: 40px 0;
+    line-height: 25px;
+}
+
+
+/* CONTACT */
+
+.contact-image {
+    width: 400px;
+}
+
+.contact-body {
+    text-align: center;
+    background-color: #fff;
+    padding: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-body a {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.social-icon {
+    width: 40px;
+    margin: 10px;
+}

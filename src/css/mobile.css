@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    /* GENERAL */
+    h1 {
+        padding: 20px 0 0px 0;
+        letter-spacing: 2px;
+        font-size: 24px !important;
+    }
+    .page {
+        margin: 20px 20px 10px 20px;
+    }
+    /* HOME */
+    .special-desktop {
+        display: none;
+    }
+    .special-mobile {
+        display: block;
+    }
+    .main-image {
+        width: 200px;
+    }
+    .text-block {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 20px;
+    }
+    .text-block p {
+        font-weight: 400;
+        margin: 40px 0;
+        font-size: 20px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .text-block h2 {
+        font-weight: 700;
+        margin: 40px 0;
+        font-size: 20px;
+    }
+    .text-block h3 {
+        font-weight: 800;
+        margin: 40px 0;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    /* CONTACT */
+    .contact-body {
+        text-align: center;
+        background-color: #fff;
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .contact-image {
+        width: 100%;
+    }
+    /* ABOUT */
+    /* ABOUT */
+    /* ABOUT */
+    /* ABOUT */
+}
