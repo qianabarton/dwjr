@@ -29,6 +29,7 @@ export default class Home extends Component {
                     <h2>Characteristics:</h2>
                     <ul className="block-list">
                         <li>Native of the Southside of Chicago</li>
+                        <li>Whitney Young HS Alumnus</li>
                         <li>Former Big-12 and MAAC Conference Athlete</li>
                         <li>University of Missouri and Niagara University (NY)</li>
                         <li>MBA Graduate (Strategic Marketing and Commerce)</li>

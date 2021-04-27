@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 
-import resume from '../pdf/Demetrius_Williamson_(spt-mkg_2020).pdf';
+import resume from '../pdf/Demetrius.Williamson (n.2021).pdf';
 import Footer from '../components/Footer'
-
 
 export default class About extends Component {
     render() {
@@ -18,7 +17,7 @@ export default class About extends Component {
                     love for the pursuit of excellence and an inspiration towards art and cultural
                     initiatives. I am Demetrius Williamson - marketing professional, writer, avid
                     traveler
-                    <span className="roboto ">&</span>
+                    <span className="roboto "> & </span>
                     progressive thinker; one-time professional athlete.<br/><br/>
                     <ul className="indent">
                         <li className="quote-border">A creative mind with a strong history of achieving
@@ -50,35 +49,27 @@ export default class About extends Component {
                     researching and crafting what pushes the needle and explode boundaries. My
                     prowess has a range from professional athlete to exceptional performance in
                     business development, relationship building
-                    <span className="roboto ">&</span>
+                    <span className="roboto "> & </span>
                     brand marketing.
                     <br/><br/>
                     Business and athletics remain a cornerstone of my foundation. Though, my passion
                     expands through fashion, photography, music and art.<br/>
                 </p>
 
-                <a target="_blank " href="pdf/sports/Former_Player_Profile .pdf ">Former Player Profile
-                </a>
-
                 <div className="articles ">
                     <h2>Articles</h2>
-                    <br/>
-                    <a
-                        target="_blank "
-                        href="https://www.niagara-gazette.com/sports/mens-basketball-williamson-is-niagaras-sixth-starter/article_e75fe692-72ad-5614-93f1-b96d63c89ae2.html ">MEN'S BASKETBALL: Williamson is Niagara's sixth starter</a><br/><br/>
-                    <a
-                        target="_blank "
-                        href="https://www.bakersfield.com/sports/where-are-they-now-ex-bc-player-williamson-is-niagara/article_8cc96d5e-f58f-5181-ae2c-f85056b9f9e0.html ">Where Are They Now? Ex-BC player Williamson is Niagara's top 3-point threat</a><br/><br/>
-                    <a
-                        target="_blank "
-                        href="https://www.niagara-gazette.com/news/local_news/men-s-basketball-niagara-s-williamson-follows-the-bouncing-ball/article_c24fa2c0-f14d-52de-a3cc-36e09e257dde.html ">MEN’S BASKETBALL: Niagara's Williamson follows the bouncing ball</a><br/><br/>
-                    <a
-                        target="_blank "
-                        href="https://www.nytimes.com/2007/12/16/sports/basketball/16east.html ">Niagara Defeats St. John’s for First Time Since 2004</a><br/><br/>
-                    <a
-                        target="_blank "
-                        href="https://courtvisionxl.com/scouting-and-sports-agents/122010-new-athlete-demetrius-williamson/ ">12/20/10- New Athlete, Demetrius Williamson</a><br/><br/>
-                    <a target="_blank " href="https://www.youtube.com/watch?v=DD7H_lYLn8A ">NSN Feature - Demetrius Williamson Feature</a>
+                    
+                    <a target="_blank " href="https://www.bakersfield.com/sports/where-are-they-now-ex-bc-player-williamson-is-niagara/article_8cc96d5e-f58f-5181-ae2c-f85056b9f9e0.html">Where Are They Now? Ex-BC player Williamson is Niagara's top 3-point threat</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/news/local_news/mens-basketball-nu-s-williamson-is-academic-ace/article_a9dbf7de-0e54-56eb-b55f-43f6b8f645e2.html">NU's Williamson is Academic Ace</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/sports/mens-basketball-williamson-is-niagaras-sixth-starter/article_e75fe692-72ad-5614-93f1-b96d63c89ae2.html">Williamson is Niagara's Sixth Starter</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/news/local_news/men-s-basketball-niagara-s-williamson-follows-the-bouncing-ball/article_c24fa2c0-f14d-52de-a3cc-36e09e257dde.html">Niagara's Williamson Follows the Bouncing Ball</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/news/local_news/men-s-basketball-meech-helps-niagara-out-of-slump/article_98225230-eeef-57cd-857f-c54240ac31ec.html">Meech Helps Niagara Out of Slump</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/sports/mens-basketball-williamson-sparks-niagaras-win-over-saint-peters/article_fef4a089-1c20-501a-8378-39fa0ea3aa16.html">Williamson Sparks Niagara's Win Over Saint Peter's</a><br/>
+                    <a target="_blank " href="https://buffalonews.com/news/eagles-take-late-flight/article_e5802b9a-e3ed-5231-962e-b806d019c03c.html">Eagles Take Late Flight</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/sports/men-s-basketball-nu-closes-out-iona/article_d69a4ad5-6b7e-5c73-9044-ce6329b4a8e8.html">NU Closes Out Iona</a><br/>
+                    <a target="_blank " href="https://www.niagara-gazette.com/sports/college-basketball-purple-eagles-have-plenty-to-prove/article_6b108ba2-250a-5f0b-b317-3b14db2733c9.html">Purple Eagles Have Plenty to Prove</a><br/>
+                    <a target="_blank " href="https://www.youtube.com/watch?v=DD7H_lYLn8A">NSN Feature - Demetrius Williamson Feature</a>
+
                 </div>
                 <Footer/>
             </div>

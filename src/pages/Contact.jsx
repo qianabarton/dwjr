@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Row, Col, Container} from 'react-bootstrap';
 
 import contactImg from '../images/head-5.jpeg';
 import Footer from '../components/Footer'

@@ -46,6 +46,13 @@ p {
     justify-content: center !important;
 }
 
+.shop-btn {
+    background: #000;
+    color: #fff !important;
+    width: 80px;
+    margin-left: 5px;
+}
+
 
 /* HEADER */
 
@@ -177,4 +184,87 @@ p {
 .social-icon {
     width: 40px;
     margin: 10px;
+}
+
+
+/* SHOP PAGE */
+
+.shop-page {
+    margin: 50px 0;
+}
+
+.info-col {
+    margin-top: 30px;
+}
+
+.descriptions {
+    margin-top: 30px;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2A2A2A;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.s1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2A2A2A;
+    margin: 1px 0;
+    line-height: 25px;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2A2A2A;
+    margin: 10px 0;
+}
+
+.qty {
+    border: 2px solid #000;
+    width: 115px;
+    height: 40px;
+    margin: 15px 0;
+}
+
+.buy-btn {
+    margin: 10px 0;
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 100px;
+    border: none;
+}
+
+.s2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+.p-custom {
+    margin-top: -5px;
+}
+
+.size {
+    line-height: 3px;
+}
+
+.product-info {
+    padding: 5px 0;
 }
