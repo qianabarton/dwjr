@@ -1,12 +1,48 @@
 @media only screen and (max-width: 600px) {
     /* GENERAL */
-    h1 {
-        padding: 20px 0 0px 0;
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+    .brand {
         letter-spacing: 2px;
-        font-size: 24px !important;
+        font-size: 20px !important;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .nav-center {
+        text-align: center !important;
+        justify-content: center !important;
+        display: flex !important;
+    }
+    .nav-link {
+        height: 40px;
+    }
+    .toggle {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: #000 !important;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 16px !important;
+    }
+    .shop-btn-primary {
+        background-size: contain;
     }
     .page {
         margin: 20px 20px 10px 20px;
+    }
+    .mobile-left {
+        text-align: left !important;
+        justify-content: left !important;
+        padding-left: 20px;
+    }
+    .navbar {
+        margin-top: 10px;
+    }
+    .navbar-toggler {
+        border: none !important;
     }
     /* HOME */
     .special-desktop {
@@ -50,8 +86,5 @@
     .contact-image {
         width: 100%;
     }
-    /* ABOUT */
-    /* ABOUT */
-    /* ABOUT */
-    /* ABOUT */
+    /* Shop */
 }

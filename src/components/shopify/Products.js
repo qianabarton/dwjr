@@ -10,6 +10,7 @@ class Products extends Component {
           client={this.props.client}
           key={product.id.toString()}
           product={product}
+          updateCartTotal={this.props.updateCartTotal}
         />
       );
     });

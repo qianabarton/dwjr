@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-img {
+product-img {
     display: block;
     max-width: 100%;
     max-height: 100%;
@@ -194,18 +194,30 @@ img {
     color: black;
 }
 
+.special {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
-/* LINE ITEMS
-  * ============================== */
+.spacer {
+    height: 100px;
+}
 
 .Line-item {
-    margin-bottom: 20px;
     overflow: hidden;
     backface-visibility: visible;
     min-height: 65px;
     position: relative;
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
+}
+
+.Line-item__img2 {
+    float: left;
+}
+
+.Line-item__img2 img {
+    width: 70px;
 }
 
 .Line-item__img {
@@ -247,16 +259,20 @@ img {
 
 .Line-item__price {
     line-height: 23px;
-    float: right;
     font-weight: bold;
     font-size: 15px;
-    margin-right: 40px;
+    margin-left: 20px;
 }
 
 .Line-item__quantity-container {
-    border: 1px solid #767676;
-    float: left;
-    border-radius: 3px;
+    border-radius: 2px;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+    background: #F7F7F7 !important;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: #212529;
 }
 
 .Line-item__quantity-update {
@@ -285,33 +301,50 @@ img {
     width: 38px;
     height: 21px;
     line-height: 23px;
-    font-size: 15px;
     border: none;
     text-align: center;
     -moz-appearance: textfield;
     background: transparent;
-    border-left: 1px solid #767676;
-    border-right: 1px solid #767676;
     display: block;
-    float: left;
     padding: 0;
     border-radius: 0;
 }
 
 .Line-item__remove {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;
     border: 0;
     background: 0;
-    font-size: 20px;
-    top: -4px;
+    font-size: 10px;
     opacity: 0.5;
+    color: #000;
 }
 
 .Line-item__remove:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+.Line-item__info {
+    margin-left: 15px;
+}
+
+.Line-item__custom {
+    margin: 10px 0 !important;
+}
+
+.MuiBadge-colorPrimary {
+    background-color: rgb(16, 38, 205) !important;
+    color: #fff !important;
+}
+
+.cart-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.cart-btn i {
+    font-size: 24px;
 }
 
 
@@ -447,7 +480,7 @@ img {
 }
 
 .react-numeric-input input:focus-visible {
-    outline: #000 auto 1px !important;
+    outline: #000 auto 0.5px !important;
 }
 
 .react-numeric-input b {

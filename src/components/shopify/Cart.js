@@ -23,6 +23,7 @@ class Cart extends Component {
                 return (<LineItem
                     updateQuantityInCart={this.props.updateQuantityInCart}
                     removeLineItemInCart={this.props.removeLineItemInCart}
+                    updateCartTotal={this.props.updateCartTotal}
                     key={line_item
                     .id
                     .toString()}
@@ -62,7 +63,7 @@ class Cart extends Component {
                             <span className="pricing">$ {this.props.checkout.totalPrice}</span>
                         </div>
                     </div>
-                    <button className="Cart__checkout button" onClick={this.openCheckout}>Checkout</button>
+                    <button className="Cart__checkout buy-btn" onClick={this.openCheckout}>Checkout</button>
                 </footer>
             </div>
         )

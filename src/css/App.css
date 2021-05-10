@@ -10,6 +10,19 @@ h1 {
     margin: 0;
 }
 
+.brand {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px 0 0 0;
+    font-size: 2.5rem !important;
+    font-weight: 500;
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
 h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 700 !important;
@@ -35,6 +48,13 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    vertical-align: middle;
+    display: table-cell !important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
 }
 
 .nav-link:active {
@@ -53,6 +73,21 @@ p {
     margin-left: 5px;
 }
 
+.shop-btn-primary {
+    background: url("../images/shop.png") no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    width: 80px;
+}
+
+.shop-btn-primary span {
+    color: #fff;
+}
+
+.navbar {
+    flex-direction: column !important;
+}
+
 
 /* HEADER */
 
@@ -63,7 +98,7 @@ p {
 
 .hr {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0 !important;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
 }

@@ -21,17 +21,47 @@ import ShopWrapper from './pages/ShopWrapper.js';
 
 // App
 class App extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            isCartOpen: false,
+            cartTotal: 0
+        };
+
+        this.setCartOpen = this
+            .setCartOpen
+            .bind(this);
+
+        this.updateCartTotal = this
+            .updateCartTotal
+            .bind(this);
+    }
+
+    setCartOpen(cartState) {
+        this.setState({isCartOpen: cartState});
+    }
+
+    updateCartTotal(total) {
+        this.setState({cartTotal: total});
+    }
+
     render() {
         return (
             <Router>
                 <div>
-                    <Header/>
-                    <TheNav/>
+                    <TheNav setCartOpen={this.setCartOpen} cartTotal={this.state.cartTotal}/>
                     <Switch>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/about" component={About}/>
                         <Route exact path="/contact" component={Contact}/>
-                        <Route exact path="/shop" component={ShopWrapper}/>
+                        <Route
+                            exact
+                            path="/shop"
+                            render={(props) => (<ShopWrapper
+                            setCartOpen={this.setCartOpen}
+                            isCartOpen={this.state.isCartOpen}
+                            updateCartTotal={this.updateCartTotal}/>)}/>
                         <Route
                             render={() => (
                             <div>

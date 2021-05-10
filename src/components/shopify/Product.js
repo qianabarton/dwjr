@@ -29,7 +29,9 @@ class Product extends Component {
         this.findImage = this
             .findImage
             .bind(this);
+
     }
+
 
     findImage(images, variantId) {
         const primary = images[0];
@@ -72,7 +74,7 @@ class Product extends Component {
                 <Row>
                     <Col md={6}>
                         {this.props.product.images.length
-                            ? <img src={variantImage.src} alt={`${this.props.product.title} product shot`}/>
+                            ? <img className="product-img" src={variantImage.src} alt={`${this.props.product.title} product shot`}/>
                             : null}
                     </Col>
                     <Col md={6} className="info-col">
@@ -89,8 +91,6 @@ class Product extends Component {
                                 value={variantQuantity}
                                 onChange={this.handleQuantityChange}/>
                         </div>
-
-                        <div className="qty d-md-none"></div>
 
                         <button
                             className="buy-btn"
@@ -118,6 +118,7 @@ export default Product;
 
 const ProductInfo = props => (
     <div className="product-info">
+      
         <p className="s1">
             {props.title}
         </p>
@@ -132,13 +133,7 @@ function description() {
 
     text.push("'A Book That I Would Read' reviews the definitions & connotations of thirty-one " +
             "of the most important words & phrases in the English dictionary. ");
-    text.push("Many moments lead to 'A Book That I Would Read'. Honestly, because I do not read" +
-            " books! Novels were never my immediate source for knowledge and academic growth," +
-            " as it is for others. I preferred articles, documentaries, even dictionaries and" +
-            " encyclopedias. I favored resources that limited the pressure of reading a presc" +
-            "ribed material from start to finish. I found many novels to be generic, underwhe" +
-            "lming, overhyped. There are others like me. Thirsting to absorb knowledge throug" +
-            "h other formats in an overly saturated world.");
+    text.push("Many moments lead to 'A Book That I Would Read'. Beginning with the truth, I do not read books! Novels were never my immediate source for knowledge, expansion and academic growth, as it is for others. Preferring articles, documentaries, even dictionaries and encyclopedias. Favoring resources that limited the pressure of reading a prescribed material from start to finish. Fundamentally, I found many novels to be generic and underwhelming. There are others like me. Thirsting to absorb knowledge through other formats in an overly saturated world.");
     text.push("The book begins with the documentation of the moment I left corporate America. P" +
             "roducing a video later to be posted on Instagram. Timestamping the monumental ye" +
             "ar after, since videos and voice messages have the capability of living beyond o" +
