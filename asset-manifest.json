@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dwjr/static/css/main.5ba1fe8d.chunk.css",
-    "main.js": "/dwjr/static/js/main.f68a3a78.chunk.js",
-    "main.js.map": "/dwjr/static/js/main.f68a3a78.chunk.js.map",
-    "runtime-main.js": "/dwjr/static/js/runtime-main.07c6ea20.js",
-    "runtime-main.js.map": "/dwjr/static/js/runtime-main.07c6ea20.js.map",
+    "main.css": "/dwjr/static/css/main.bef4ef06.chunk.css",
+    "main.js": "/dwjr/static/js/main.635f9e10.chunk.js",
+    "main.js.map": "/dwjr/static/js/main.635f9e10.chunk.js.map",
+    "runtime-main.js": "/dwjr/static/js/runtime-main.478f6b5f.js",
+    "runtime-main.js.map": "/dwjr/static/js/runtime-main.478f6b5f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/dwjr/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.e6d3dd78.chunk.js": "/dwjr/static/js/2.e6d3dd78.chunk.js",
-    "static/js/2.e6d3dd78.chunk.js.map": "/dwjr/static/js/2.e6d3dd78.chunk.js.map",
-    "static/js/3.ba5fb7c6.chunk.js": "/dwjr/static/js/3.ba5fb7c6.chunk.js",
-    "static/js/3.ba5fb7c6.chunk.js.map": "/dwjr/static/js/3.ba5fb7c6.chunk.js.map",
+    "static/js/2.7c3cccee.chunk.js": "/dwjr/static/js/2.7c3cccee.chunk.js",
+    "static/js/2.7c3cccee.chunk.js.map": "/dwjr/static/js/2.7c3cccee.chunk.js.map",
+    "static/js/3.64f8705f.chunk.js": "/dwjr/static/js/3.64f8705f.chunk.js",
+    "static/js/3.64f8705f.chunk.js.map": "/dwjr/static/js/3.64f8705f.chunk.js.map",
     "index.html": "/dwjr/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/dwjr/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.5ba1fe8d.chunk.css.map": "/dwjr/static/css/main.5ba1fe8d.chunk.css.map",
-    "static/js/2.e6d3dd78.chunk.js.LICENSE.txt": "/dwjr/static/js/2.e6d3dd78.chunk.js.LICENSE.txt",
+    "static/css/main.bef4ef06.chunk.css.map": "/dwjr/static/css/main.bef4ef06.chunk.css.map",
+    "static/js/2.7c3cccee.chunk.js.LICENSE.txt": "/dwjr/static/js/2.7c3cccee.chunk.js.LICENSE.txt",
     "static/media/Artist | @briggs.a43f7568.pdf": "/dwjr/static/media/Artist | @briggs.a43f7568.pdf",
     "static/media/Cannabis Start-up.92f62a2a.pdf": "/dwjr/static/media/Cannabis Start-up.92f62a2a.pdf",
     "static/media/Demetrius.Williamson (n.2021).ab2a1141.pdf": "/dwjr/static/media/Demetrius.Williamson (n.2021).ab2a1141.pdf",
@@ -25,10 +25,10 @@
     "static/media/instagram.71a83de9.png": "/dwjr/static/media/instagram.71a83de9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.07c6ea20.js",
+    "static/js/runtime-main.478f6b5f.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.e6d3dd78.chunk.js",
-    "static/css/main.5ba1fe8d.chunk.css",
-    "static/js/main.f68a3a78.chunk.js"
+    "static/js/2.7c3cccee.chunk.js",
+    "static/css/main.bef4ef06.chunk.css",
+    "static/js/main.635f9e10.chunk.js"
   ]
 }
