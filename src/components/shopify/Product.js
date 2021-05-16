@@ -3,6 +3,8 @@ import {Row, Col, Container} from 'react-bootstrap';
 import NumericInput from 'react-numeric-input';
 
 import VariantSelector from './VariantSelector';
+import ImageGallery from 'react-image-gallery';
+
 
 class Product extends Component {
     constructor(props) {

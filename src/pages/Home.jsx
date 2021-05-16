@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import main from '../images/head-1.jpeg'
+import main from '../images/home.png'
 import Footer from '../components/Footer'
 
 export default class Home extends Component {

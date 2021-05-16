@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import contactImg from '../images/head-5.jpeg';
+import contactImg from '../images/contact.png';
 import Footer from '../components/Footer'
 
 export default class Contact extends Component {
