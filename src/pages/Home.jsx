@@ -80,7 +80,6 @@ export default class Home extends Component {
                         in business development, relationship building and brand marketing. A true
                         passion for details, organization and execution while also thinking outside the
                         box and working with a multitude of individuals.
-                        <br/><br/>Self-starter. Integrity holder.
                     </p>
                 </div>
 
@@ -88,11 +87,8 @@ export default class Home extends Component {
 
                 <div className="text-block">
                     <h3>The intent of this
-                        <span className="accent">
-                            shareable platform
-                        </span>
-                        is to have a digital destination composed of foregoing work as reference for
-                        potential partnerships and opportunities in marketing</h3>
+                        <span className="accent"> shareable platform
+                        </span> is to have a digital destination composed of foregoing work as reference for potential partnerships in business and introductions for creative work</h3>
                 </div>
                 <Footer/>
             </div>

@@ -5,6 +5,39 @@ import NumericInput from 'react-numeric-input';
 import VariantSelector from './VariantSelector';
 import ImageGallery from 'react-image-gallery';
 
+const images = [
+    {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-1' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-1' +
+                '.png'
+    }, {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-2' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-2' +
+                '.png'
+    }, {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-3' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-3' +
+                '.png'
+    }, {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-4' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-4' +
+                '.png'
+    }, {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-5' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-5' +
+                '.png'
+    }, {
+        original: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-6' +
+                '.png',
+        thumbnail: 'https://raw.githubusercontent.com/qianabarton/dwjr/master/src/images/shop/shop-6' +
+                '.png'
+    }
+];
 
 class Product extends Component {
     constructor(props) {
@@ -33,7 +66,6 @@ class Product extends Component {
             .bind(this);
 
     }
-
 
     findImage(images, variantId) {
         const primary = images[0];
@@ -75,9 +107,12 @@ class Product extends Component {
             <Container>
                 <Row>
                     <Col md={6}>
-                        {this.props.product.images.length
-                            ? <img className="product-img" src={variantImage.src} alt={`${this.props.product.title} product shot`}/>
-                            : null}
+                        <ImageGallery
+                            items={images}
+                            infinite={true}
+                            showFullscreenButton={false}
+                            showPlayButton={false}
+                            useTranslate3D={false}/>
                     </Col>
                     <Col md={6} className="info-col">
                         <p className="product-title">
@@ -120,7 +155,7 @@ export default Product;
 
 const ProductInfo = props => (
     <div className="product-info">
-      
+
         <p className="s1">
             {props.title}
         </p>
@@ -135,7 +170,13 @@ function description() {
 
     text.push("'A Book That I Would Read' reviews the definitions & connotations of thirty-one " +
             "of the most important words & phrases in the English dictionary. ");
-    text.push("Many moments lead to 'A Book That I Would Read'. Beginning with the truth, I do not read books! Novels were never my immediate source for knowledge, expansion and academic growth, as it is for others. Preferring articles, documentaries, even dictionaries and encyclopedias. Favoring resources that limited the pressure of reading a prescribed material from start to finish. Fundamentally, I found many novels to be generic and underwhelming. There are others like me. Thirsting to absorb knowledge through other formats in an overly saturated world.");
+    text.push("Many moments lead to 'A Book That I Would Read'. Beginning with the truth, I do " +
+            "not read books! Novels were never my immediate source for knowledge, expansion a" +
+            "nd academic growth, as it is for others. Preferring articles, documentaries, eve" +
+            "n dictionaries and encyclopedias. Favoring resources that limited the pressure o" +
+            "f reading a prescribed material from start to finish. Fundamentally, I found man" +
+            "y novels to be generic and underwhelming. There are others like me. Thirsting to" +
+            " absorb knowledge through other formats in an overly saturated world.");
     text.push("The book begins with the documentation of the moment I left corporate America. P" +
             "roducing a video later to be posted on Instagram. Timestamping the monumental ye" +
             "ar after, since videos and voice messages have the capability of living beyond o" +

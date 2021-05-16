@@ -128,6 +128,7 @@ product-img {
     border-left: 1px solid #e5e5e5;
     transform: translateX(100%);
     transition: transform 0.15s ease-in-out;
+    z-index: 999;
 }
 
 .Cart--open {
@@ -486,4 +487,30 @@ product-img {
 .react-numeric-input b {
     background: none !important;
     border: none !important;
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-icon {
+    color: #000 !important;
+    filter: drop-shadow(0 2px 2px #000) !important;
+}
+
+.image-gallery-icon:hover {
+    color: #000 !important;
+}
+
+.image-gallery-thumbnail.active {
+    border: none !important;
+    opacity: 1;
+}
+
+.image-gallery-thumbnail:hover,
+.image-gallery-thumbnail:focus {
+    border: none !important;
+}
+
+.image-gallery-thumbnail {
+    border: none !important;
+    opacity: 0.5;
+    transition: none !important;
 }

@@ -10,6 +10,8 @@ import fieldtrip from '../pdf/businessProjects/The Field Trip.pdf';
 import distribution from '../pdf/businessProjects/Distribution Design Overview.pdf';
 import artist from '../pdf/businessProjects/Artist | @briggs.pdf';
 
+import cart from '../images/cart.png';
+
 // IGTV
 
 /*
@@ -102,10 +104,13 @@ export default class MyNav extends Component {
                                 <Link className="nav-link shop-btn-primary" to="/shop">
                                     <span>Shop</span>
                                 </Link>
+
+                            </div>
+                            <div className="nav-center">
                                 <Nav.Link>
                                     <Badge badgeContent={this.props.cartTotal} color="primary">
                                         <button className="cart-btn" onClick={() => this.props.setCartOpen(true)}>
-                                            <i class="fa fa-shopping-cart"></i>
+                                            <img className="cart-img" src={cart}></img>
                                         </button>
                                     </Badge>
                                 </Nav.Link>
